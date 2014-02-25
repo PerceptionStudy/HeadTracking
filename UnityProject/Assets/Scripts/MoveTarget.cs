@@ -19,7 +19,7 @@ public class MoveTarget : MonoBehaviour
 			Camera.main.orthographicSize = Screen.height * 0.5f;
 		}
 
-		float yMaxAngle = 20.0f;
+		float yMaxAngle = 50.0f;
 		float xPosition = Mathf.Clamp(-faceAPI.yaw, -yMaxAngle, yMaxAngle) / yMaxAngle * Screen.width * 0.5f ;
 
 		float xMaxAngle = 30.0f;
